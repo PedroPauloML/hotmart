@@ -1,0 +1,16 @@
+<h1>Vinculando o HOTMART ao seu projeto Rails!</h1>
+
+<br>
+
+<a onclick="return false;" href="https://pay.hotmart.com/E5424415J?checkoutMode=2" class="hotmart-fb"><img src='https://static.hotmart.com/img/btn-buy-green.png'></a>
+
+<script type="text/javascript">
+    function importHotmart(){
+        var imported = document.createElement('script');
+        imported.src = 'https://static.hotmart.com/checkout/widget.min.js';
+        document.head.appendChild(imported);
+    }
+    importHotmart();
+</script>
+
+<p>O código de saída para gerar esse botão é fornecido no seu próprio perfil do HotMart, na aba <b>"Meus Produtos > HotLinks > Código de Checkout Widget"</b>.</p>
